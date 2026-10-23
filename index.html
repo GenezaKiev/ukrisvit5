@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Україна і світ. 5 клас</title>
+<meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
+<link href="bootstrap/jquery-ui.min.css" rel="stylesheet">
+<link href="historysvit5.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="searchindex.js"></script>
+<script src="wb.sitesearch.min.js"></script>
+<script>
+var features = '';
+function searchPage(features)
+{
+   $('#SiteSearch1-dialog').dialog('open');
+   $('#SiteSearch1-dialog').empty();
+   searchResults('SiteSearch1', 'SiteSearch1-dialog', 250, 5, true, true, false, false, '_parent', 'No results', ' result(s) found for search term: ', 'seconds');
+   $('#SiteSearch1-dialog').dialog('option', 'position', 'center');
+   return false;
+}
+</script>
+<script>
+$(document).ready(function()
+{
+   searchParseURL('SiteSearch1');
+   searchAutoComplete('SiteSearch1', 0, '_parent');
+   $("#SiteSearch1-dialog").dialog(
+   {
+      modal: true,
+      width: 400,
+      height: 300,
+      position: { my: 'center', at: 'center', of: window },
+      resizable: true,
+      draggable: false,
+      closeOnEscape: true,
+      show: false,
+      hide: false,
+      autoOpen: false,
+      buttons: 
+      {
+         Close: function() 
+         {
+            $(this).dialog('close');
+         }
+      }
+   });
+});
+</script>
+</head>
+<body>
+<div id="space"><br></div>
+<div id="container">
+<picture id="wb_Picture1" style="position:absolute;left:0px;top:0px;width:1000px;height:725px;z-index:0">
+<img src="images/Тло_УіС_5.jpg" id="Picture1" alt="Modern soft green watercolor texture background design vector" title="Modern soft green watercolor texture background design vector" width="1000" height="667">
+</picture>
+<div id="wb_Shape3" style="position:absolute;left:19px;top:7px;width:442px;height:710px;z-index:1;">
+<img src="images/img0001.png" id="Shape3" alt="" width="442" height="710" style="width:442px;height:710px;"></div>
+<div id="wb_Text1" style="position:absolute;left:42px;top:121px;width:391px;height:368px;text-align:center;z-index:2;">
+<p style="font-size:21px;line-height:24.5px;font-weight:bold;">&nbsp;</p>
+<p style="font-size:19px;line-height:21px;"><span style="font-size:21px;line-height:24.5px;font-weight:bold;">ІНТЕРАКТИВНИЙ ЕЛЕКТРОННИЙ ДОДАТОК</span></p>
+<p style="font-size:16px;line-height:18px;">&nbsp;</p>
+<p style="font-size:16px;line-height:18px;">&nbsp;</p>
+<p style="font-size:16px;line-height:18px;">Цей електронний додаток створений для того, щоб навчання перетворилося на справжнє дослідження. Тут немає нудних текстів — лише те, що надихає!</p>
+<p style="font-size:16px;line-height:18px;">&nbsp;</p>
+<p style="font-size:16px;line-height:18px;">Що на вас чекає:</p>
+<ul style="font-size:16px;line-height:18px;list-style-type:disc;">
+<li style="margin:0 0 0 48px;"><span style="font-weight:bold;">Інфографіка уроку</span>: вся інформація стисло та інформативно.
+</li>
+<li style="margin:0 0 0 48px;"><span style="font-weight:bold;">Медіатека</span>: переглядайте відеоуроки та інші цікаві відео, слухайте подкасти.
+</li>
+<li style="margin:0 0 0 48px;"><span style="font-weight:bold;">Інтерактивні вправи</span>: закріплюйте знання через ігри.
+</li>
+</ul>
+<p style="font-size:16px;line-height:18px;">Україна — це частина великого і різноманітного світу, і нам є чим пишатися!</p>
+<p style="font-size:16px;line-height:18px;">&nbsp;</p></div>
+<form name="SiteSearch1_form" id="SiteSearch1_form" role="search" accept-charset="UTF-8" onsubmit="return searchPage(features)"></form>
+<input type="text" id="SiteSearch1" style="position:absolute;left:107px;top:29px;width:140px;height:18px;z-index:3;" name="SiteSearch1" value="" spellcheck="false" placeholder="Пошук" role="searchbox" form="SiteSearch1_form">
+<div id="SiteSearch1-dialog" title="Search results"></div>
+<input type="button" id="Button1" onclick="searchPage();return false;" name="Search" value="Знайти" style="position:absolute;left:262px;top:31px;width:96px;height:25px;z-index:4;">
+<a id="Button2" href="./p1.html" style="position:absolute;left:130px;top:507px;width:221px;height:69px;z-index:5;">ПОЧНІМО!</a>
+<div id="wb_Text12" style="position:absolute;left:150px;top:678px;width:168px;height:18px;z-index:6;">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><strong> © 2026 ТОВ &quot;Генеза&quot;</strong></span></div>
+<div id="wb_Image1" style="position:absolute;left:479px;top:7px;width:504px;height:710px;z-index:7;">
+<img src="images/вступ до історії білай.png" id="Image1" alt="" width="504" height="746"></div>
+</div>
+</body>
+</html>
